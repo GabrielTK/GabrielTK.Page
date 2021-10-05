@@ -54,15 +54,23 @@ export default function IndexPage() {
           <div style={{alignItems: 'center'}}>
           <h1 variant="heading.h1">Like what you see?</h1>
           <br/>
-          
+          <h2 variant="heading.h3">Why not check my profile on some other places?</h2>
           <br/>
 
-          <div display="flex" width="100%" alignItems="center"><button variant="button" onClick={()=>{
+          <div display="flex" width="100%" alignItems="center" gap={5}>
+            <button variant="button" onClick={()=>{
             setfinalPageZVel({x: 200, y: 0})
             setTimeout(()=>{
               window.location.href = "https://github.com/GabrielTK/"
             }, 500)
-          }}>Let's Go!</button></div>
+          }}>GitHub</button>
+          <button variant="button" onClick={()=>{
+            setfinalPageZVel({x: 200, y: 0})
+            setTimeout(()=>{
+              window.location.href = "https://profile.codersrank.io/user/gabrieltk"
+            }, 500)
+          }}>CodersRank</button>
+          </div>
           </div>
         </div>
       </div></StarryPage>

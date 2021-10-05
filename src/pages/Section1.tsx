@@ -6,7 +6,7 @@ export default function Section1() {
     return (
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: "space-evenly", alignItems: "center", textAlign: "center"}} width="100%">
             <div>
-                <p variant="heading.h2">I'm a love building user experiences</p>
+                <p variant="heading.h2">I love building user experiences</p>
 
                 <p variant="heading.h4">Be it Web, Mobile or Game Design</p>
 
